@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.DAL", "ProjAdmin.DAL\ProjAdmin.DAL.csproj", "{40635B34-A055-432A-BB01-9D8C032568DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.Model", "ProjAdmin.Model\ProjAdmin.Model.csproj", "{2BAD4894-CB00-47D6-AB42-FA6199CD69E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.WPF", "ProjAdmin.WPF\ProjAdmin.WPF.csproj", "{A7FEA1F8-8D0B-4119-A2B1-DA4D2C5D1726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.WPF.Main", "ProjAdmin.WPF.Main\ProjAdmin.WPF.Main.csproj", "{FDAC0C68-D025-4554-BEEC-0B393F6E4A9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8486828-A47C-462B-848F-7F409E219AC1} = {E8486828-A47C-462B-848F-7F409E219AC1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.WPF.Reporting", "ProjAdmin.WPF.Reporting\ProjAdmin.WPF.Reporting.csproj", "{0B422AA1-F479-4E08-AF26-E0235454FCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.WPF.Shared", "ProjAdmin.WPF.Shared\ProjAdmin.WPF.Shared.csproj", "{E8486828-A47C-462B-848F-7F409E219AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAdmin.Globals", "ProjAdmin.Globals\ProjAdmin.Globals.csproj", "{4D75C113-3B8D-40F5-9E7D-2A77BDDF6287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40635B34-A055-432A-BB01-9D8C032568DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40635B34-A055-432A-BB01-9D8C032568DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40635B34-A055-432A-BB01-9D8C032568DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40635B34-A055-432A-BB01-9D8C032568DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAD4894-CB00-47D6-AB42-FA6199CD69E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAD4894-CB00-47D6-AB42-FA6199CD69E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAD4894-CB00-47D6-AB42-FA6199CD69E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAD4894-CB00-47D6-AB42-FA6199CD69E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FEA1F8-8D0B-4119-A2B1-DA4D2C5D1726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FEA1F8-8D0B-4119-A2B1-DA4D2C5D1726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FEA1F8-8D0B-4119-A2B1-DA4D2C5D1726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FEA1F8-8D0B-4119-A2B1-DA4D2C5D1726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAC0C68-D025-4554-BEEC-0B393F6E4A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAC0C68-D025-4554-BEEC-0B393F6E4A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAC0C68-D025-4554-BEEC-0B393F6E4A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAC0C68-D025-4554-BEEC-0B393F6E4A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B422AA1-F479-4E08-AF26-E0235454FCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B422AA1-F479-4E08-AF26-E0235454FCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B422AA1-F479-4E08-AF26-E0235454FCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B422AA1-F479-4E08-AF26-E0235454FCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8486828-A47C-462B-848F-7F409E219AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8486828-A47C-462B-848F-7F409E219AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8486828-A47C-462B-848F-7F409E219AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8486828-A47C-462B-848F-7F409E219AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D75C113-3B8D-40F5-9E7D-2A77BDDF6287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D75C113-3B8D-40F5-9E7D-2A77BDDF6287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D75C113-3B8D-40F5-9E7D-2A77BDDF6287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D75C113-3B8D-40F5-9E7D-2A77BDDF6287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = ..\lib\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
